@@ -3,9 +3,9 @@ jQuery(document).ready(function($) {
 	var nPalavras = $svgAnimado.children().length - 1;
 	var iPalavraAtual = 0;
 
-	var tempoEscrita = 2000;
-	var tempoApaga = 1000;
-	var tempoDelay = 1200;
+	var tempoEscrita = 1200;
+	var tempoApaga = 500;
+	var tempoDelay = 800;
 	
 
 	var animarPalavra = function(){
